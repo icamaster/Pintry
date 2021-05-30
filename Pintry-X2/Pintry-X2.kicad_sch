@@ -1,0 +1,27 @@
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 4dda0f32-68f6-467e-9c4a-af7e2b8a8793)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 53.34) (size 40.64 39.37) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9d10082d-34aa-4b2a-aed1-f6a03e5ca555)
+    (property "Sheet name" "CM4" (id 0) (at 95.25 52.7043 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CM4.kicad_sch" (id 1) (at 95.25 93.2187 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555" (page "2"))
+  )
+)
