@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "PintryParts-Symbols")(type "KiCad")(uri "${KIPRJMOD}/PintryParts-Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/eexcc15/Desktop/CM4IO-KiCAD/CM4IO.kicad_sym")(options "")(descr "")(disabled))
 )

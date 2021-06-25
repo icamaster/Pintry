@@ -1,0 +1,50 @@
+*
+*******************************************
+*
+*BZX384-B12
+*
+*NXP Semiconductors
+*
+*Voltage regulator diode
+*
+*
+*
+*
+* 
+*
+*IR    = 100nA @ VR   = 8V
+*IZSM  = 2,5A  @ tp   = 100µs
+*VZmax = 12,2V @ IZ   = 5mA
+*
+*
+*
+*
+* 
+*
+*
+*Package pinning does not match Spice model pinning.
+*Package: SOD323
+*
+*Package Pin 1: Cathode 
+*Package Pin 2: Anode
+*
+*
+*
+*
+*Simulator: PSPICE
+*
+*******************************************
+*#
+.MODEL BZX384-B12 D
++ IS = 1.13E-14
++ N = 1.103
++ BV = 12
++ IBV = 0.005
++ RS = 0.4798
++ CJO = 4.928E-11
++ VJ = 0.575
++ M = 0.3292
++ FC = 0.5
+*##
+*
+

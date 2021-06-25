@@ -1,0 +1,34 @@
+*Feb 04, 2013
+*ECN S13-0204, Rev. A
+*File Name: SiA483DJ_PS.txt and SiA483DJ_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet.  Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SiA483DJ D G S 
+M1 3 GX S S PMOS W= 2812500u L= 0.25u 
+M2 S GX S D NMOS W= 2812500u L= 2.493e-07 
+R1 D 3 1.1940e-02 TC=3.284e-03, 1.054e-05 
+CGS GX S 9.950e-10 
+CGD GX D 7.552e-11 
+RG G GY 3.7 
+RTCV 100 S 1e6 TC=-9.390e-06, 5.308e-07 
+ETCV GY GX 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD D S DBD 
+**************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 1.000e-06 KP = 3.189e-06 NSUB = 2.393e+16 
++ KAPPA = 5.822e-04 ETA = 1e-4 NFS = 3.354e+11 
++ LD = 0 IS = 0 TPG = -1) 
+*************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 1.906e+16 IS = 0 TPG = -1 ) 
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 1.230e-08 T_MEASURED = 25 BV = 31 
++RS = 5.241e-03 N = 1.418e+00 IS = 2.126e-09 
++EG = 1.149e+00 XTI = 1.507e+00 TRS1 = 2.189e-03 
++CJO = 9.0398e-11 VJ = 3.000e-01 M = 1.427e-01 ) 
+.ENDS 
