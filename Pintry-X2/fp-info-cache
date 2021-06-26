@@ -1,4 +1,4 @@
-19426038977453948
+19427663682717517
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73513,6 +73513,13 @@ DLW5BTM101SQ2L
 0
 4
 4
+PintryParts-Footprints
+Fiducial_1mm
+
+
+0
+1
+1
 PintryParts-Footprints
 L_0603_1608Metric
 Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
