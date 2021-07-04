@@ -4,8 +4,8 @@ Instance "m:m2:2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:m2:1": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration for .op point succeeded.
 
-Date: Mon Jun 14 20:32:59 2021
-Total elapsed time: 0.067 seconds.
+Date: Sun Jun 27 13:58:24 2021
+Total elapsed time: 0.063 seconds.
 
 tnom = 27
 temp = 27

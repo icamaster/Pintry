@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -95,23 +101,39 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -367,7 +389,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "C:/Users/eexcc15/Documents/KiCad/5.99/template/CezTemplateEmpty.kicad_wks"
   },
   "schematic": {
     "drawing": {
@@ -406,7 +428,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "C:\\Users\\eexcc15\\Documents\\KiCad\\5.99\\template\\CezTemplate.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "OutputJob/Schematic/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -418,20 +440,20 @@
       ""
     ],
     [
-      "9d10082d-34aa-4b2a-aed1-f6a03e5ca555",
-      "CM4-ETH-GPIO"
-    ],
-    [
-      "d684709a-a958-44ce-bda0-0bbe09272c17",
-      "PCIe to SATA"
-    ],
-    [
       "9b6e5347-f86e-4db9-bbf5-31af483a2407",
       "Power Supply"
     ],
     [
+      "9d10082d-34aa-4b2a-aed1-f6a03e5ca555",
+      "CM4-ETH-GPIO"
+    ],
+    [
       "43f16507-298f-4d98-bfaf-f1724bb94aba",
       "CM4-USB-PCIe"
+    ],
+    [
+      "d684709a-a958-44ce-bda0-0bbe09272c17",
+      "PCIe to SATA"
     ]
   ],
   "text_variables": {

@@ -1,4 +1,4 @@
-19427663682717517
+19434168453402263
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73528,12 +73528,26 @@ inductor
 2
 2
 PintryParts-Footprints
+L_Taiyo-Yuden_NR-50xx
+Inductor, Taiyo Yuden, NR series, Taiyo-Yuden_NR-50xx, 4.9mmx4.9mm
+inductor taiyo-yuden nr smd
+0
+2
+2
+PintryParts-Footprints
 MSOP-10_3x3mm_P0.5mm
 10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
 SSOP 0.5
 0
 10
 10
+PintryParts-Footprints
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
 PintryParts-Footprints
 Pulse-JD0-0001NL-0-0-MFG
 
@@ -73576,6 +73590,20 @@ TE_1735284-3
 0
 24
 24
+PintryParts-Footprints
+USB_A_Amphenol_ICC_73725-11A0BLF_Horizontal
+USB A connector https://www.we-online.com/catalog/datasheet/614004134726.pdf
+USB_A Female Connector receptacle
+0
+8
+5
+PintryParts-Footprints
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
 PintryParts-Footprints
 V-QFN2030-12 (Type A)
 
