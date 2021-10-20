@@ -1,5 +1,5 @@
-(footprint "V-QFN2030-12 (Type A)" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60B24237)
+(footprint "V-QFN2030-12 (Type A)" (version 20210925) (generator pcbnew) (layer "F.Cu")
+  (tedit 616ABC98)
   (solder_mask_margin 0.025)
   (fp_text reference "REF**" (at 0.2 -2.5 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -41,4 +41,9 @@
   (pad "10" smd rect (at 0.25 -1.35) (size 0.35 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2542b39-d96f-4d8d-bea1-556eeaf83b16))
   (pad "11" smd rect (at -0.25 -1.35) (size 0.35 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ae63aae-9516-45d4-866c-11ba0a8602fe))
   (pad "12" smd rect (at -0.75 -1.35) (size 0.35 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e8071cb3-06dd-4cb5-a88b-18d87c1be01c))
+  (model "./PintryParts-3DModels.3dshapes/V-QFN2030-12.step"
+    (offset (xyz -1 1.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
