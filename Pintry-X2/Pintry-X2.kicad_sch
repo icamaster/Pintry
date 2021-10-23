@@ -604,6 +604,9 @@
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/4febeb89-4d91-4f87-9c75-fef61b54479a"
       (reference "#PWR077") (unit 1) (value "GND") (footprint "")
     )
+    (path "/43f16507-298f-4d98-bfaf-f1724bb94aba/3b2464ae-ae63-4db3-b478-09ba82719b4b"
+      (reference "#PWR078") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/67537e3a-2b8d-426b-87ed-727e0c0bf13f"
       (reference "#PWR080") (unit 1) (value "+1V2") (footprint "")
     )
@@ -891,6 +894,9 @@
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/707d3459-6446-441f-9b40-d1b4c95cb0f7"
       (reference "C20") (unit 1) (value "0.01uF") (footprint "PintryParts-Footprints:C_0402_1005Metric")
+    )
+    (path "/9b6e5347-f86e-4db9-bbf5-31af483a2407/251cd913-5196-4b11-a8ea-f1615ee9e9e5"
+      (reference "C21") (unit 1) (value "1uF") (footprint "PintryParts-Footprints:C_0402_1005Metric")
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/870273e3-2c82-4aff-8c6f-06e527aaa99b"
       (reference "C23") (unit 1) (value "0.1uF") (footprint "PintryParts-Footprints:C_0402_1005Metric")
@@ -1314,6 +1320,9 @@
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/f8df30be-ca56-48c1-9991-c71acc58b44c"
       (reference "R34") (unit 1) (value "0R") (footprint "PintryParts-Footprints:R_0402_1005Metric")
+    )
+    (path "/43f16507-298f-4d98-bfaf-f1724bb94aba/2d0beb97-9a24-4e0b-8762-400d8c1114f0"
+      (reference "R35") (unit 1) (value "100k") (footprint "PintryParts-Footprints:R_0402_1005Metric")
     )
     (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/6f1202d7-2506-4e0e-b360-a3da4e4649bc"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS")

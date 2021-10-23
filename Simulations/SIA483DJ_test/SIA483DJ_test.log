@@ -1,23 +1,30 @@
 Circuit: * D:\Proiecte\Electronica\Pintry\Simulations\SIA483DJ_test\SIA483DJ_test.asc
 
+Instance "m:m3:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:m3:1": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:m1:2": Length shorter than recommended for a level 3 MOSFET.
+Instance "m:m1:1": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:m2:2": Length shorter than recommended for a level 3 MOSFET.
 Instance "m:m2:1": Length shorter than recommended for a level 3 MOSFET.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Jun 27 13:58:24 2021
-Total elapsed time: 0.063 seconds.
+currlim: MAX(-i(v2))=15.8035 FROM 0 TO 0.01
+
+
+Date: Sat Oct 23 13:45:14 2021
+Total elapsed time: 0.078 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2583
-traniter = 2572
-tranpoints = 1225
-accept = 1166
-rejected = 59
-matrix size = 19
-fillins = 13
+totiter = 2549
+traniter = 2538
+tranpoints = 1256
+accept = 1190
+rejected = 66
+matrix size = 57
+fillins = 37
 solver = Normal
-Matrix Compiler1: 1.65 KB object code size  0.4/0.2/[0.1]
-Matrix Compiler2: 1.82 KB object code size  0.2/0.2/[0.2]
+Matrix Compiler1: 5.14 KB object code size  1.0/0.5/[0.3]
+Matrix Compiler2: 5.43 KB object code size  0.4/0.6/[0.4]
 
