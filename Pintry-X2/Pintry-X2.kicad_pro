@@ -76,7 +76,8 @@
         "courtyards_overlap|162200001|186490001|b14f93fd-b1be-4461-85f3-f7eb91ac8992|ea0d8282-a4d5-47dc-bba6-9b6dba88675f",
         "courtyards_overlap|162200001|186490001|ea0d8282-a4d5-47dc-bba6-9b6dba88675f|b14f93fd-b1be-4461-85f3-f7eb91ac8992",
         "courtyards_overlap|72450001|170160001|802854fe-595c-4fec-9ce5-7608487d226d|c2f39ba9-6a71-4df9-8b38-15dc9da3bef8",
-        "silk_overlap|119520000|201300000|a01cf199-1ea0-4469-bc4c-af51edf9f795|07b2d3a6-f2de-436c-bcb0-c2d2a665f1dd"
+        "silk_overlap|119520000|201300000|a01cf199-1ea0-4469-bc4c-af51edf9f795|07b2d3a6-f2de-436c-bcb0-c2d2a665f1dd",
+        "track_dangling|120740000|200860000|66e1cfd1-1394-4f1c-89b8-d38f53e09cc8|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -582,6 +583,6 @@
   ],
   "text_variables": {
     "DrawnBy": "Cezar Chirila",
-    "RevNum": "1.0"
+    "RevNum": "1.1"
   }
 }

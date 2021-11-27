@@ -101,6 +101,19 @@
     (uuid 07807ab1-6ade-4f33-b0ca-adfecf4cfd96)
   )
 
+  (text "Changelog:\n" (at 38.1 238.76 0)
+    (effects (font (size 1.8 1.8) (thickness 0.254) bold) (justify left bottom))
+    (uuid 2e46d647-b4a9-44b4-bc56-891886a29047)
+  )
+  (text "V1.0 - Initial Release\n" (at 38.1 242.57 0)
+    (effects (font (size 1.8 1.8)) (justify left bottom))
+    (uuid 02d16e87-6bb6-42bb-9c8c-32ba0211cb29)
+  )
+  (text "V1.1 - Changed R14 to 1K. Fixed SST25VF512A footprint. Fixed Y1 pinout.\n\n\n\n "
+    (at 38.1 257.81 0)
+    (effects (font (size 1.8 1.8)) (justify left bottom))
+    (uuid 75ae7bb1-e197-425a-8988-785aa2c9a41d)
+  )
   (text "PCIe RX/TX from Host perspective" (at 179.07 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 458f4ea7-9ae5-45de-8720-a20773562f3f)
@@ -1259,7 +1272,7 @@
       (reference "R13") (unit 1) (value "12K1") (footprint "PintryParts-Footprints:R_0402_1005Metric")
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/4b139e0e-b32a-4583-81cf-842901f3e977"
-      (reference "R14") (unit 1) (value "4K7") (footprint "PintryParts-Footprints:R_0402_1005Metric")
+      (reference "R14") (unit 1) (value "1K") (footprint "PintryParts-Footprints:R_0402_1005Metric")
     )
     (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/9740a87c-eb70-42e8-8352-c46b996b0405"
       (reference "R15") (unit 1) (value "100K") (footprint "PintryParts-Footprints:R_0402_1005Metric")
@@ -1400,7 +1413,7 @@
       (reference "U7") (unit 2) (value "ASM1061") (footprint "PintryParts-Footprints:QFN-48-1EP_7x7mm_P0.5mm_EP4.025x4.025mm")
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/0d7ef888-f0d3-4c0a-9db1-a1092ada64a7"
-      (reference "U10") (unit 1) (value "SST25VF512A") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
+      (reference "U10") (unit 1) (value "SST25VF512A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/967707d1-cc15-44c4-ad21-402dd30edde5"
       (reference "U11") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
