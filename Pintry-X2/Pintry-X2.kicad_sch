@@ -109,7 +109,7 @@
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid 02d16e87-6bb6-42bb-9c8c-32ba0211cb29)
   )
-  (text "V1.1 - Changed R14 to 1K. Fixed SST25VF512A footprint. Fixed Y1 pinout.\n\n\n\n "
+  (text "V1.1 - Changed R14 to 1K. Fixed SST25VF512A footprint. Fixed Y1 pinout. Fixed USB Power Switch enable. \n\n\n\n "
     (at 38.1 257.81 0)
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid 75ae7bb1-e197-425a-8988-785aa2c9a41d)
@@ -485,8 +485,8 @@
     (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/89cc37c3-f38d-4a76-b956-f71314944bb8"
       (reference "#PWR033") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/62d0e961-8513-496f-8a5d-418bb6ab73c1"
-      (reference "#PWR034") (unit 1) (value "+3.3V") (footprint "")
+    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/04ab7149-7bbc-4256-9047-d982054a754c"
+      (reference "#PWR034") (unit 1) (value "+5V") (footprint "")
     )
     (path "/43f16507-298f-4d98-bfaf-f1724bb94aba/dbbe10b1-a04f-447b-9b52-05ad854ee7cb"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
@@ -608,7 +608,7 @@
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/f9c7ccfa-78d1-42c0-ada6-251577c0bcd1"
       (reference "#PWR074") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/79648b23-c26d-467d-9176-8ba48718babe"
+    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/e9b55565-de45-4b28-a951-034691780f85"
       (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
     (path "/d684709a-a958-44ce-bda0-0bbe09272c17/c36ee3d2-73e4-408e-ade4-3f3f3ff3e5d9"
@@ -1061,8 +1061,8 @@
     (path "/43f16507-298f-4d98-bfaf-f1724bb94aba/55c4320b-d023-45ec-a8a7-16f6c4cd22e1"
       (reference "D6") (unit 1) (value "D3V3M1U259-7") (footprint "Diode_SMD:D_SOD-923")
     )
-    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/52ebbd65-f42c-4ca1-bcff-f69e932068e7"
-      (reference "D7") (unit 1) (value "D3V3M1U259-7") (footprint "Diode_SMD:D_SOD-923")
+    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/a0f6f20a-b607-4c46-8091-4483967c9f9a"
+      (reference "D7") (unit 1) (value "DF2S6.2FS,L3M") (footprint "Diode_SMD:D_SOD-923")
     )
     (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/9416faeb-54cd-4a5d-9519-11badceae2fc"
       (reference "D8") (unit 1) (value "APA2107SECK") (footprint "PintryParts-Footprints:APA2107SECK")
@@ -1336,6 +1336,9 @@
     )
     (path "/43f16507-298f-4d98-bfaf-f1724bb94aba/2d0beb97-9a24-4e0b-8762-400d8c1114f0"
       (reference "R35") (unit 1) (value "100k") (footprint "PintryParts-Footprints:R_0402_1005Metric")
+    )
+    (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/efb4912c-2031-4dee-b422-66650b5ac057"
+      (reference "R36") (unit 1) (value "100K") (footprint "PintryParts-Footprints:R_0402_1005Metric")
     )
     (path "/9d10082d-34aa-4b2a-aed1-f6a03e5ca555/6f1202d7-2506-4e0e-b360-a3da4e4649bc"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS")
