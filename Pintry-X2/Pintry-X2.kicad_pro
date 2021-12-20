@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "height": 2.2,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,8 +56,12 @@
         }
       ],
       "drc_exclusions": [
+        "copper_edge_clearance|117085000|209190000|bd07d564-d06e-4fdc-9141-e8bac37526c3|19999950-5826-420b-b355-727f9aa56105",
         "copper_edge_clearance|118140000|209835000|bd07d564-d06e-4fdc-9141-e8bac37526c3|77ae348b-a32f-4525-a172-a046ff8b9a7d",
+        "copper_edge_clearance|118140000|210000000|bd07d564-d06e-4fdc-9141-e8bac37526c3|77ae348b-a32f-4525-a172-a046ff8b9a7d",
         "copper_edge_clearance|120060000|209835000|bd07d564-d06e-4fdc-9141-e8bac37526c3|da669412-3b94-4526-bdc4-1efca4d6dfc0",
+        "copper_edge_clearance|120060000|210000000|bd07d564-d06e-4fdc-9141-e8bac37526c3|da669412-3b94-4526-bdc4-1efca4d6dfc0",
+        "copper_edge_clearance|122545000|209190000|bd07d564-d06e-4fdc-9141-e8bac37526c3|65da73a9-b3f8-4588-bed0-a9f75714cf5b",
         "courtyards_overlap|122029999|146640001|6726c2bc-0998-4d7a-b839-d6845f805b30|9b444dc8-3e94-4b34-8df6-4a645c641ea7",
         "courtyards_overlap|122029999|147540001|20780809-5499-4e3b-bb25-a6a8d46d8072|9b444dc8-3e94-4b34-8df6-4a645c641ea7",
         "courtyards_overlap|122029999|148440001|105f7e1a-2340-4326-ab8e-a7a3ccce25ff|20780809-5499-4e3b-bb25-a6a8d46d8072",
@@ -507,7 +511,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Pintry-X2.step",
+      "step": "OutputJob/3DModel/Pintry-X2.step",
       "vrml": "Pintry-X2.wrl"
     },
     "page_layout_descr_file": "pagelayout_default.kicad_wks"
