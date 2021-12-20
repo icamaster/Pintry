@@ -1,3 +1,0 @@
-dtoverlay=gpio-shutdown,gpio_pin=21,active_low=0,gpio_pull=off
-dtoverlay=uart0,txd0_pin=14,rxd0_pin=15,pin_func=4
-enable_uart=1  
