@@ -3,3 +3,4 @@ Datasheets/
 *.bak
 Simulations/*/*.raw
 Pintry-X2/OutputJob
+!Pintry-X2/OutputJob/Version1.1
