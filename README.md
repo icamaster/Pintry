@@ -48,3 +48,4 @@ To keep temperatures under control, I have used a RAM heatsink on the ASM1061 IC
 
 ## Release
 The current latest release is V1.1. This version has not been tested or manufactured yet, therefore I would suggest double checking it if you plan on bulding it!
+All the necessary manufacturing and assembly files are in the 'OutputJob/Version' and 'Enclosure' folders.
