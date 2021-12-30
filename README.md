@@ -43,5 +43,8 @@ For assembly, you will need the following:
 * 4 x M3x25mm socket screws - for mounting the drives
 * 4 x M3x35mm socket screws - for joining the two halves of the enclosure
 
+## Thermal management
+To keep temperatures under control, I have used a RAM heatsink on the ASM1061 IC and a 60mm fan on the bottom of the enclosure tied to the FAN header and controlled via the 'gpio-fan' overlay. It is mounted in such way that it blows air over both the CM4 and the ASM1061.  
+
 ## Release
 The current latest release is V1.1. This version has not been tested or manufactured yet, therefore I would suggest double checking it if you plan on bulding it!
