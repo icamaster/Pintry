@@ -55,34 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|117085000|209190000|bd07d564-d06e-4fdc-9141-e8bac37526c3|19999950-5826-420b-b355-727f9aa56105",
-        "copper_edge_clearance|118140000|209835000|bd07d564-d06e-4fdc-9141-e8bac37526c3|77ae348b-a32f-4525-a172-a046ff8b9a7d",
-        "copper_edge_clearance|118140000|210000000|bd07d564-d06e-4fdc-9141-e8bac37526c3|77ae348b-a32f-4525-a172-a046ff8b9a7d",
-        "copper_edge_clearance|120060000|209835000|bd07d564-d06e-4fdc-9141-e8bac37526c3|da669412-3b94-4526-bdc4-1efca4d6dfc0",
-        "copper_edge_clearance|120060000|210000000|bd07d564-d06e-4fdc-9141-e8bac37526c3|da669412-3b94-4526-bdc4-1efca4d6dfc0",
-        "copper_edge_clearance|122545000|209190000|bd07d564-d06e-4fdc-9141-e8bac37526c3|65da73a9-b3f8-4588-bed0-a9f75714cf5b",
-        "courtyards_overlap|122029999|146640001|6726c2bc-0998-4d7a-b839-d6845f805b30|9b444dc8-3e94-4b34-8df6-4a645c641ea7",
-        "courtyards_overlap|122029999|147540001|20780809-5499-4e3b-bb25-a6a8d46d8072|9b444dc8-3e94-4b34-8df6-4a645c641ea7",
-        "courtyards_overlap|122029999|148440001|105f7e1a-2340-4326-ab8e-a7a3ccce25ff|20780809-5499-4e3b-bb25-a6a8d46d8072",
-        "courtyards_overlap|136059999|197750001|28764d06-c176-4cd3-8753-e6a859c23792|f41e42b9-38ff-47fa-a0a1-06f7571c0911",
-        "courtyards_overlap|143340001|185040001|7c0bf403-7fd6-4739-b1fe-ab5d60965505|d30bee13-f0bb-4f55-890b-e557e330a4c8",
-        "courtyards_overlap|143900001|184313405|d30bee13-f0bb-4f55-890b-e557e330a4c8|e19e1684-8d6b-43f1-900a-2499b199e820",
-        "courtyards_overlap|145837501|208750001|391bc454-bb69-476a-8ff1-9ba605af73b5|a2be8c72-ff16-4f30-aae6-af195100cb0d",
-        "courtyards_overlap|146159999|146790001|26807d32-a770-442e-bfbd-4e24128bcbf9|c1822f9d-3f18-4124-8d91-74bfaee7b135",
-        "courtyards_overlap|146159999|147690001|23fe0837-9feb-446e-a0f5-c282a6677096|26807d32-a770-442e-bfbd-4e24128bcbf9",
-        "courtyards_overlap|146159999|148590001|23fe0837-9feb-446e-a0f5-c282a6677096|6f6bdff1-bac0-4157-ae86-f04ae3459e0b",
-        "courtyards_overlap|153667499|152557501|70fba78b-2c49-4f7d-811c-09b02c573ce2|79421fba-38d0-416a-b7f7-b0c7d602e5c9",
-        "courtyards_overlap|153667499|156307501|8093b8bf-769b-4420-812c-661b96978650|a05f6b54-22a2-443c-8292-bf34870127f1",
-        "courtyards_overlap|158575001|167645001|1702b7b2-8acb-4125-b982-7cb30aea408d|ea7bddb0-76c0-4a4d-a0a7-25bed08eccc4",
-        "courtyards_overlap|159399999|185675001|4a047771-8480-4711-9291-142c899d9744|f76c47c9-aaa2-4e07-93af-102e8c115487",
-        "courtyards_overlap|159599999|185675001|f76c47c9-aaa2-4e07-93af-102e8c115487|4a047771-8480-4711-9291-142c899d9744",
-        "courtyards_overlap|162200001|186490001|b14f93fd-b1be-4461-85f3-f7eb91ac8992|ea0d8282-a4d5-47dc-bba6-9b6dba88675f",
-        "courtyards_overlap|162200001|186490001|ea0d8282-a4d5-47dc-bba6-9b6dba88675f|b14f93fd-b1be-4461-85f3-f7eb91ac8992",
-        "courtyards_overlap|72450001|170160001|802854fe-595c-4fec-9ce5-7608487d226d|c2f39ba9-6a71-4df9-8b38-15dc9da3bef8",
-        "silk_overlap|119520000|201300000|a01cf199-1ea0-4469-bc4c-af51edf9f795|07b2d3a6-f2de-436c-bcb0-c2d2a665f1dd",
-        "track_dangling|120740000|200860000|66e1cfd1-1394-4f1c-89b8-d38f53e09cc8|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -115,6 +88,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -511,10 +485,10 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "OutputJob/3DModel/Pintry-X2.step",
+      "step": "OutputJob/Version1.1/Pintry-X2_3DModel_1.1.step",
       "vrml": "Pintry-X2.wrl"
     },
-    "page_layout_descr_file": "pagelayout_default.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,

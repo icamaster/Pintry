@@ -1,0 +1,68 @@
+Component,Description,References,Value,Quantity Per PCB,Manufacturer,Part Number,Voltage Rating,Type,fit_field
+1,"Unpolarized capacitor, small symbol",C18,15pF,1,,,50V,NPO,
+2,"Unpolarized capacitor, small symbol",C19 C20 C45 C46 C47 C48 C51 C52 C53 C54,0.01uF,10,,,25V,X7R,
+3,"Unpolarized capacitor, small symbol",C2 C3 C4 C7 C9 C11 C12 C13 C15 C23 C27 C28 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C57 C60 C65,0.1uF,30,,,25V,X7R,
+4,"Unpolarized capacitor, small symbol",C61,1uF,1,,,25V,X7R,
+5,"Unpolarized capacitor, small symbol",C1 C5 C14 C16 C17 C24 C29 C67 C68,10uF,9,,,10V,X7R,
+6,"Unpolarized capacitor, small symbol",C58,22uF,1,Samsung,CL21A226MOQNNNE,16V,X7R,
+7,"Unpolarized capacitor, small symbol",C6 C62 C63 C64,22uF,4,Murata,GRM21BR61A226ME51L,16V,X7R,
+8,"Polarized capacitor, small symbol",C8 C10 C49 C50 C55 C56 C66,865080443007,7,Wurth,865080443007,,,
+9,"Unpolarized capacitor, small symbol",C59,TBD,1,,,25V,X7R,dnf
+10,LED Orange Clear,D9 D17,APA2107SECK,2,Kingbright,APA2107SECK/J4-PRV,,,
+11,LED Orange Clear,D8,APA2107SECK,1,Kingbright,APA2107SECK/J4-PRV,,,
+12,"300mW Zener Diode, SOD-323",D24 D26,BZX384-B13,2,Nexperia,"BZX384-B13,115",,,
+13,Diode TVS 3V3,D3 D4 D5 D6 D10 D11 D12,D3V3M1U259-7,7,Diodes,D3V3M1U2S9-7,,,
+14,Diode,D13 D14 D21 D23 D25,"DF2S16FS,L3M",5,Toshiba,"DF2S16FS,L3M",,,
+15,Diode,D1 D2 D7 D15 D16 D20 D22,"DF2S6.2FS,L3M",7,Toshiba,"DF2S6.2FS,L3M",,,
+16,"Ferrite bead, small symbol",FB1 FB2 FB3 FB4 FB5 FB6,MPZ1608S101ATAH0,6,TDK,MPZ1608S101ATAH0,,,
+17,"Common mode choke, 300mA, 300VAC, 22mH, 1.3 ohm, RN-102",FL1,DLW5BTM101SQ2L,1,Murata,DLW5BTM101SQ2L,,,
+18,SATA Backplane Receptacle Vertical SMT,J9 J10,1735284-3,2,TE Connectivity,1735284-3,,,
+19,DC Barrel Jack with an internal switch,J11,54-00131,1,Tensility,54-00131,,,
+20,Micro SD Card Socket with card detection pins,J4,DM3D-SF,1,Hirose,DM3D-SF,,,
+21,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J6,Expansion,1,Adam Tech,2PH2-10-UA,,,
+22,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J7 J8,Fan,2,Molex,47053-1000,,,
+23,"LAN Transformer Jack, RJ45, 10/100/1000 BaseT",J3,JD0-0001NL,1,Pulse,JD0-0001NL,,,
+24,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J5,UART,1,Adam Tech,PH1-03-UA,,,
+25,USB Type A connector,J2,USB_A,1,Amphenol ICC,73725-11A0BLF,,,
+26,USB Micro Type B connector,J1,USB_B_Micro,1,Amphenol ICC,10103594-0001LF,,,
+27,4.7µH Shielded Wirewound Inductor 2.6A 35mOhm,L1,NRS5030T4R7MMGJ,1,Taiyo Yuden,NRS5030T4R7MMGJ,,,
+28,1.2µH Shielded Molded Inductor 10A 12mOhm,L2,PA4341.122NLT,1,Pulse,PA4341.122NLT,,,
+29,,Module1,ComputeModule4-CM4,1,Hirose,2x DF40C-100DS-0.4V,,,
+30,"PNP transistor, base/emitter/collector",Q6,BC857BW,1,Nexperia,"BC857BW,135",,,
+31,"N-MOSFET transistor, gate/source/drain",Q1 Q2 Q3,BSS138PW,3,Nexperia,"BSS138PW,115",,,
+32,"-12A Id, -30V Vds, P-Channel MOSFET",Q5,SIA483DJ,1,Vishay,SIA483DJ-T1-GE3,,,
+33,"-12A Id, -30V Vds, P-Channel MOSFET",Q7,SIA483DJ,1,Vishay,SIA483DJ-T1-GE3,,,
+34,"Resistor, US symbol",R33 R34,0R,2,,,,,dnf
+35,"Resistor, US symbol",R3 R4,470R,2,,,,,
+36,"Resistor, US symbol",R1 R6 R14 R19 R20,1K,5,,,,,
+37,"Resistor, US symbol",R2 R5 R7 R8 R11 R16 R17 R18 R21 R27 R28 R32,4K7,12,,,,,dnf
+38,"Resistor, US symbol",R12 R13,12K1,2,,,,,
+39,"Resistor, US symbol",R30,30K1,1,,,,,
+40,"Resistor, US symbol",R9 R10 R15 R22 R23 R24 R25 R26 R31 R35 R36,100K,11,,,,,dnf
+41,"Resistor, US symbol",R29,221K,1,,,,,
+42,"Push button switch, generic, two pins",SW1,SW_Push,1,TE Connectivity,1-1825027-4,,,
+43,"Single Buffer Gate Tri-State, Low-Voltage CMOS",U4,74AHCT1G126,1,Diodes,74AHCT1G126SE-7,,,
+44,"4.5V TO 18V INPUT, 6A SYNCHRONOUS BUCK CONVERTER",U13,AP62600,1,Diodes,AP62600SJ-7,,,
+45,PCI Express 2.0 to 2 x SATA 6Gbps Controller,U7,ASM1061,1,ASMedia,ASM1061,,,
+46,USB Switch IC 1 Channel 10-MSOP,U14,FSUSB30MUX,1,ON Semiconductor,FSUSB30MUX,,,
+47,,U15,MIC2005-0.5LYM5,1,Microchip,MIC2005-0.5LYM5,,,
+48,"Single Schmitt Buffer Gate, Low-Voltage CMOS",U3,SN74LVC1G17,1,Texas Instruments,SN74LVC1G17DBVR,,,
+49,"8-Mbit, 2.7 to 3.6V, SPI Flash Memory, SOIC-8",U10,SST25VF512A,1,Microchip,SST25VF512A-33-4I-SAE-T,,,
+50,"4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10",U1 U2 U5 U6 U11 U12,TPD4EUSB30,6,Texas Instruments,TPD4EUSB30DQAR,,,
+51,"Four pin crystal, GND on pins 2 and 4",Y1,ECS-200-12-33-AGN-TR,1,ECS,ECS-200-12-33-AGN-TR,,,
+
+
+
+
+
+Component Groups:,51
+Component Count:,166
+Fitted Components:,166
+Number of PCBs:,1
+Total components:,166
+Schematic Version:,1.1
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,30/12/2021 15:42:43
+Schematic Source:,Pintry-X2.kicad_sch
+KiCad Version:,Eeschema (6.0.0)
