@@ -1,5 +1,5 @@
 ## Introduction
-
+The Pintry X2 is a two bay NAS (Network Attached Storage) based on the Raspberry Pi Compute Module 4. It uses the ASMedia AS1061 PCIe to Sata bridge to connect up to 2 drives (3.5'/2.5' HDD or 2.5' SSD) to the SoM running a Linux based OS (Raspberry Pi OS).
 
 ## Features
 * Supports both CM4 and CM4 lite variants
@@ -36,3 +36,6 @@ To be able to use SATA drives with this you need to recompile the kernel with ad
 
 ## Enclosure
 The enclosure supports 2.5' drives only. It does not have any mounting features for fans, but there is room for a 60mm fan on the bottom as shown in the images below. It does not need supports for printing. Designed in Fusion 360.
+
+## Release
+The current latest release is V1.1. This version has not been tested or manufactured yet, therefore I would suggest double checking it if you plan on bulding it!
