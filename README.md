@@ -35,7 +35,7 @@ dtoverlay=gpio-shutdown,gpio_pin=21,active_low=0,gpio_pull=off
 Remember to remove the '#' in from of options you want to enable. 
 
 ## Kernel
-To be able to use SATA drives with this you need to recompile the kernel with added SATA support. See instructions [here](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/1#issuecomment-717578358) (credit to [Jeff Geerling](github.com/geerlingguy) for instructions).
+Previously, to be able to use SATA drives with a CM4 you had to recompile the kernel with added SATA support. See instructions [here](https://github.com/geerlingguy/raspberry-pi-pcie-devices/issues/1#issuecomment-717578358) (credit to [Jeff Geerling](github.com/geerlingguy) for instructions). However, newer kernel version has SATA support built-in, so you should not have to worry about this.
 
 ## Enclosure
 The enclosure supports 2.5' drives only. It does not have any mounting features for fans, but there is room for a 60mm fan on the bottom as shown in the images below. It does not need supports for printing. Designed in Fusion 360.
